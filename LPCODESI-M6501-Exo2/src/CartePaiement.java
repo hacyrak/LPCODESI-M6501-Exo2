@@ -9,5 +9,5 @@ public abstract class CartePaiement {
 		
 	}
 	
-	public abstract void autorisePaiement(Double montant);
+	public abstract boolean autorisePaiement(Double montant);
 }
