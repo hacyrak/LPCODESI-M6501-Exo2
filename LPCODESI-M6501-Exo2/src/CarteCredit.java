@@ -11,10 +11,16 @@ public class CarteCredit extends CartePaiement {
 	
 	public boolean autorisePaiement(Double montant) {
 		if (this.encours + montant <= this.plafond) {
+			this.encours += montant;
 			return true;
 		} else {
 			return false;
 		}
+	}
+	
+	public void affiche() {
+		System.out.println("Votre plafond est à : "+ this.plafond+"€");
+		System.out.println("En cours : "+ this.encours+"€");
 	}
 	
 }
