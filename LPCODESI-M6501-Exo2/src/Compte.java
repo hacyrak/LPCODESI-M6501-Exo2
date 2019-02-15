@@ -1,8 +1,8 @@
 
 public class Compte {
 	private Double solde;
-	public Compte() {
-		
+	public Compte(Double solde) {
+		this.solde = solde;
 	}
 	public Double getSolde() {
 		return solde;
