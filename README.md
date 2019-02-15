@@ -1,1 +1,3 @@
 # LPCODESI-M6501-Exo2
+
+Exercice 2 du TP LP-CODESI 2019
